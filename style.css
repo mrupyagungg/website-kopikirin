@@ -1008,3 +1008,73 @@ footer .credit a {
         margin-top: 1rem;
     }
 }
+
+/* media query for mobile */
+@media (max-width: 450px) {
+    html {
+        font-size: 40%; /* Set font size to 40% of default size for smaller screens */
+    }
+
+    /* Navbar styles */
+    #hamburger-menu {
+        display: inline-block; /* Make hamburger menu visible */
+    }
+
+    .navbar .navbar-nav {
+        position: fixed; /* Sticky navbar */
+        top: 0;
+        right: -100%;
+        width: 80%;
+        height: 100vh;
+        background-color: #fff;
+        transition: 0.3s ease-in-out;
+        z-index: 10;
+    }
+
+    .navbar .navbar-nav a {
+        color: var(--bg);
+        display: block;
+        margin: 1.5rem;
+        padding: 1rem;
+        font-size: 1.8rem; /* Increased font size for easy readability */
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0; /* Slide in the navbar when active */
+    }
+
+    /* Menu cards */
+    .menu .row .menu-card {
+        flex: 1 1 100%; /* 1 column on small screens */
+        max-width: 100%;
+    }
+
+    .menu-card-name {
+        font-size: 1rem; /* Adjust text size to fit mobile screens */
+    }
+
+    /* Product card layout */
+    .product .row {
+        gap: 1rem; /* Space between product cards */
+        justify-content: center; /* Center product cards */
+    }
+
+    .product .product-card {
+        flex: 0 1 calc(90% - 1rem); /* 1 card per row with reduced width */
+        max-width: calc(90% - 1rem);
+        margin-top: 1rem; /* Add top margin for spacing */
+    }
+
+    /* Modal layout */
+    .modal-content {
+        flex-wrap: wrap;
+    }
+
+    /* About section */
+    .about .row .about-img img {
+        flex: 1 1 100%; /* Image takes full width on small screens */
+        height: auto; /* Adjust height to keep the aspect ratio */
+        object-fit: cover;
+        object-position: center;
+    }
+}
