@@ -20,17 +20,20 @@ h3 {
 
 /* Gaya untuk search form saat aktif */
 .search-form.active {
-    display: block; /* atau gaya lainnya sesuai kebutuhan Anda */
+    display: block;
+    /* atau gaya lainnya sesuai kebutuhan Anda */
 }
 
 /* Gaya untuk shopping cart saat aktif */
 .shopping-cart.active {
-    display: block; /* atau gaya lainnya sesuai kebutuhan Anda */
+    display: block;
+    /* atau gaya lainnya sesuai kebutuhan Anda */
 }
 
 /* Gaya untuk navbar saat aktif (untuk mobile menu) */
 .navbar-nav.active {
-    display: block; /* atau gaya lainnya sesuai kebutuhan Anda */
+    display: block;
+    /* atau gaya lainnya sesuai kebutuhan Anda */
 }
 
 body {
@@ -39,6 +42,7 @@ body {
     color: white;
     min-height: auto;
 }
+
 /* navbar */
 .navbar {
     display: flex;
@@ -168,7 +172,8 @@ body {
 }
 
 .shopping-cart {
-    width: 500px; /* Adjust the width as needed */
+    width: 500px;
+    /* Adjust the width as needed */
     padding: 20px;
     background-color: #f8f8f8;
     border: 1px solid #ddd;
@@ -235,16 +240,19 @@ body {
     margin-top: 1rem;
     padding: 1rem;
 }
+
 .form-container label {
     display: flex;
     flex-direction: column;
     margin-bottom: 0.5rem;
 }
+
 .form-container input {
     padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 .checkout-button {
     padding: 0.75rem;
     background-color: #007bff;
@@ -254,14 +262,18 @@ body {
     cursor: pointer;
     margin-top: 1rem;
 }
+
 .checkout-button:hover {
     background-color: #0056b3;
 }
 
 .card img {
-    max-width: 100px; /* Mengatur lebar maksimum gambar */
-    max-height: 100px; /* Mengatur tinggi maksimum gambar */
-    margin-right: 10px; /* Menambahkan margin kanan untuk memberikan ruang antara gambar dan teks */
+    max-width: 100px;
+    /* Mengatur lebar maksimum gambar */
+    max-height: 100px;
+    /* Mengatur tinggi maksimum gambar */
+    margin-right: 10px;
+    /* Menambahkan margin kanan untuk memberikan ruang antara gambar dan teks */
 }
 
 .cart-items,
@@ -291,6 +303,7 @@ body {
     width: 100%;
     margin-top: 10px;
 }
+
 .checkout-button {
     font-size: 1rem;
     font-weight: 700;
@@ -315,12 +328,14 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center; /* Center content horizontally */
+    justify-content: center;
+    /* Center content horizontally */
     background-image: url(img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative; /* Ensure the pseudo-element is positioned correctly */
+    position: relative;
+    /* Ensure the pseudo-element is positioned correctly */
 }
 
 .hero::after {
@@ -330,24 +345,27 @@ body {
     width: 100%;
     height: 25%;
     bottom: 0;
-    background: linear-gradient(
-        0deg,
-        rgba(1, 1, 3, 1) 3%,
-        rgba(255, 255, 255, 0) 50%
-    );
+    background: linear-gradient(0deg,
+            rgba(1, 1, 3, 1) 3%,
+            rgba(255, 255, 255, 0) 50%);
 }
 
 .hero .content {
-    padding: 2rem; /* Increased padding for more space */
+    padding: 2rem;
+    /* Increased padding for more space */
     max-width: 60rem;
-    text-align: center; /* Center align text */
-    margin: 2rem; /* Added margin for extra spacing */
+    text-align: center;
+    /* Center align text */
+    margin: 2rem;
+    /* Added margin for extra spacing */
 }
 
 .hero .content h1 {
-    font-size: 4em; /* Adjusted font-size for better readability */
+    font-size: 4em;
+    /* Adjusted font-size for better readability */
     color: #fff;
-    text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.8); /* Corrected typo from 'rpx' to '2px' */
+    text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.8);
+    /* Corrected typo from 'rpx' to '2px' */
     line-height: 1.3;
 }
 
@@ -360,18 +378,21 @@ body {
     margin-top: 1rem;
     line-height: 1.4;
     font-weight: 200;
-    text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.8); /* Corrected typo from 'rpx' to '2px' */
+    text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.8);
+    /* Corrected typo from 'rpx' to '2px' */
     /* mix-blend-mode: difference; */
 }
 
 .hero .content .cta {
-    margin-top: 1.5rem; /* Slightly increased margin-top for better spacing */
+    margin-top: 1.5rem;
+    /* Slightly increased margin-top for better spacing */
     display: inline-block;
     padding: 1rem 3rem;
     color: #fff;
     background-color: var(--primary);
     border-radius: 0.5rem;
-    box-shadow: 1px 1px 2px rgba(1, 1, 1, 0.8); /* Corrected typo from '1px' to '2px' */
+    box-shadow: 1px 1px 2px rgba(1, 1, 1, 0.8);
+    /* Corrected typo from '1px' to '2px' */
 }
 
 /* about */
@@ -427,24 +448,32 @@ body {
     font-weight: 200;
     line-height: 1.6;
 }
+
 /* Menu CSS with Animations */
 .menu {
-    background-color: gainsboro; /* Warna latar belakang putih */
-    padding: 4rem 0; /* Padding atas dan bawah */
+    background-color: gainsboro;
+    /* Warna latar belakang putih */
+    padding: 4rem 0;
+    /* Padding atas dan bawah */
     color: #000;
 }
 
 .menu h2 {
-    margin-bottom: 1.5rem; /* Jarak bawah judul */
-    text-align: center; /* Posisi teks menjadi tengah */
+    margin-bottom: 1.5rem;
+    /* Jarak bawah judul */
+    text-align: center;
+    /* Posisi teks menjadi tengah */
     color: #000;
-    position: relative; /* Relatif untuk animasi */
+    position: relative;
+    /* Relatif untuk animasi */
 }
 
 .menu h2 span,
 .about h2 span {
-    display: inline-block; /* Menampilkan elemen sebagai blok inline */
-    position: relative; /* Relatif untuk animasi */
+    display: inline-block;
+    /* Menampilkan elemen sebagai blok inline */
+    position: relative;
+    /* Relatif untuk animasi */
 }
 
 .about h2 span::after {
@@ -452,12 +481,14 @@ body {
     display: block;
     width: 0%;
     height: 2px;
-    background-color: #fcbf49; /* Warna garis bawah */
+    background-color: #fcbf49;
+    /* Warna garis bawah */
     position: absolute;
     bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
-    transition: width 0.3s ease-in-out; /* Transisi lebar */
+    transition: width 0.3s ease-in-out;
+    /* Transisi lebar */
 }
 
 .menu h2 span::after {
@@ -465,98 +496,136 @@ body {
     display: block;
     width: 0%;
     height: 2px;
-    background-color: var(--primary); /* Warna garis bawah */
+    background-color: var(--primary);
+    /* Warna garis bawah */
     position: absolute;
     bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
-    transition: width 0.3s ease-in-out; /* Transisi lebar */
+    transition: width 0.3s ease-in-out;
+    /* Transisi lebar */
 }
 
 .menu h2:hover span::after {
-    width: 100%; /* Lebar garis bawah saat hover */
+    width: 100%;
+    /* Lebar garis bawah saat hover */
 }
 
 .menu p,
 .product p {
-    text-align: center; /* Posisi teks menjadi tengah */
-    max-width: 30rem; /* Lebar maksimum teks */
-    margin: auto; /* Pusatkan elemen */
-    font-weight: 300; /* Ketebalan font */
-    line-height: 1.6rem; /* Tinggi baris */
-    transition: opacity 0.3s ease-in-out; /* Transisi opacity */
+    text-align: center;
+    /* Posisi teks menjadi tengah */
+    max-width: 30rem;
+    /* Lebar maksimum teks */
+    margin: auto;
+    /* Pusatkan elemen */
+    font-weight: 300;
+    /* Ketebalan font */
+    line-height: 2rem;
+    /* Tinggi baris */
+    transition: opacity 0.3s ease-in-out;
+    /* Transisi opacity */
+    font-size: 1.7rem;
 }
 
 .menu p:hover,
 .product p:hover {
-    opacity: 0.8; /* Kurangi opacity saat hover */
+    opacity: 0.8;
+    /* Kurangi opacity saat hover */
 }
 
 .menu .row {
-    display: flex; /* Tampilan flex */
-    flex-wrap: wrap; /* Wrap item ke baris baru jika tidak muat */
-    justify-content: center; /* Pusatkan item secara horizontal */
-    gap: 16px; /* Jarak antar elemen */
+    display: flex;
+    /* Tampilan flex */
+    flex-wrap: wrap;
+    /* Wrap item ke baris baru jika tidak muat */
+    justify-content: center;
+    /* Pusatkan item secara horizontal */
+    gap: 16px;
+    /* Jarak antar elemen */
     color: #000;
-    margin-top: 3rem; /* Jarak atas */
+    margin-top: 3rem;
+    /* Jarak atas */
 }
 
 .menu .row .menu-card {
-    text-align: center; /* Posisi teks menjadi tengah */
-    flex: 1 1 calc(20% - 32px); /* Bagian kartu mengambil 20% lebar dengan jarak sisi 16px */
-    box-sizing: border-box; /* Memastikan padding dan border tidak mempengaruhi ukuran elemen */
-    padding-bottom: 2rem; /* Padding bawah */
+    text-align: center;
+    /* Posisi teks menjadi tengah */
+    flex: 1 1 calc(20% - 32px);
+    /* Bagian kartu mengambil 20% lebar dengan jarak sisi 16px */
+    box-sizing: border-box;
+    /* Memastikan padding dan border tidak mempengaruhi ukuran elemen */
+    padding-bottom: 2rem;
+    /* Padding bawah */
     padding: 1.5rem;
-    max-width: calc(20% - 32px); /* Lebar maksimum kartu */
-    position: relative; /* Relatif untuk animasi */
-    transition: transform 0.3s ease-in-out; /* Transisi transformasi */
+    max-width: calc(20% - 32px);
+    /* Lebar maksimum kartu */
+    position: relative;
+    /* Relatif untuk animasi */
+    transition: transform 0.3s ease-in-out;
+    /* Transisi transformasi */
 }
 
 .menu .row .menu-card img {
-    border-radius: 10%; /* Sudut gambar */
-    width: 100%; /* Lebar gambar */
-    transition: transform 0.3s ease-in-out; /* Transisi transformasi */
+    border-radius: 10%;
+    /* Sudut gambar */
+    width: 100%;
+    /* Lebar gambar */
+    transition: transform 0.3s ease-in-out;
+    /* Transisi transformasi */
 }
 
 .menu .row .menu-card:hover {
-    transform: translateY(-10px); /* Geser kartu ke atas saat hover */
+    transform: translateY(-10px);
+    /* Geser kartu ke atas saat hover */
 }
 
 .menu .row .menu-card:hover img {
-    transform: scale(1.05); /* Perbesar gambar saat hover */
+    transform: scale(1.05);
+    /* Perbesar gambar saat hover */
 }
 
 .menu .menu-card h3 {
-    margin-top: 1.5rem; /* Jarak atas judul */
-    transition: color 0.3s ease-in-out; /* Transisi warna teks */
+    margin-top: 1.5rem;
+    /* Jarak atas judul */
+    transition: color 0.3s ease-in-out;
+    /* Transisi warna teks */
     color: #000;
 }
 
 .menu .menu-card:hover h3 {
-    color: var(--primary); /* Warna judul saat hover */
+    color: var(--primary);
+    /* Warna judul saat hover */
 }
 
 .menu .row .menu-card-price {
-    margin-top: 1.5rem; /* Jarak atas harga */
-    transition: color 0.3s ease-in-out; /* Transisi warna teks */
+    margin-top: 1.5rem;
+    /* Jarak atas harga */
+    transition: color 0.3s ease-in-out;
+    /* Transisi warna teks */
 }
 
 .menu .row .menu-card:hover .menu-card-price {
-    color: var(--primary); /* Warna harga saat hover */
+    color: var(--primary);
+    /* Warna harga saat hover */
 }
 
 /* product */
 .product .row {
     display: flex;
-    flex-wrap: wrap; /* Cards wrap to the next row if they don't fit in one row */
-    justify-content: space-evenly; /* Space cards evenly */
-    gap: 1rem; /* Space between product cards */
+    flex-wrap: wrap;
+    /* Cards wrap to the next row if they don't fit in one row */
+    justify-content: space-evenly;
+    /* Space cards evenly */
+    gap: 1rem;
+    /* Space between product cards */
     margin-top: 4rem;
     padding: 1rem;
 }
 
 .product .product-card {
-    flex: 0 1 calc(25% - 0.5rem); /* Each product card is 25% of the container width, with a 0.5rem gap */
+    flex: 0 1 calc(25% - 0.5rem);
+    /* Each product card is 25% of the container width, with a 0.5rem gap */
     text-align: center;
     border: 1px solid #000;
     padding: 1rem;
@@ -564,9 +633,11 @@ body {
     margin-top: 1rem;
     border-radius: 8px;
     color: #000;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* More subtle shadow */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    /* More subtle shadow */
     transition: transform 0.3s, box-shadow 0.3s;
-    max-width: 300px; /* Maximum card width */
+    max-width: 300px;
+    /* Maximum card width */
 }
 
 .product .product-card:hover {
@@ -575,7 +646,8 @@ body {
 }
 
 .product .product-card img {
-    width: 100%; /* Image fills the entire card width */
+    width: 100%;
+    /* Image fills the entire card width */
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s;
@@ -587,14 +659,16 @@ body {
 
 .product .product-card .product-card-title {
     margin-top: 1rem;
-    font-size: 1rem; /* Reduced title size */
+    font-size: 1rem;
+    /* Reduced title size */
     font-weight: 600;
     color: #333;
 }
 
 .product .product-price {
     margin-top: 0.5rem;
-    font-size: 1.3rem; /* Reduced price size */
+    font-size: 1.4rem;
+    /* Reduced price size */
     font-weight: bold;
     color: #000;
 }
@@ -602,18 +676,23 @@ body {
 .product .product-icon {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .product .product-icon i {
-    font-size: 2rem; /* Reduced icon size */
+    font-size: 3rem;
+    /* Reduced icon size */
     color: var(--primary);
+    margin-bottom: 1rem;
 }
 
 .product .product-star {
-    display: flex; /* Display stars in a row */
-    justify-content: center; /* Center the stars horizontally */
+    display: flex;
+    /* Display stars in a row */
+    justify-content: center;
+    /* Center the stars horizontally */
     font-size: 1.5rem;
     padding: 0.5rem;
     color: var(--primary);
@@ -629,10 +708,11 @@ body {
 }
 
 .product .product-icon a {
-    width: 3rem;
-    height: 3rem;
-    color: #0b0b0b;
+    width: 4rem;
+    height: 4rem;
     margin: 0.3rem;
+    margin-bottom: 1rem;
+    color: #0b0b0b;
     border: 2px solid #ddd;
     display: flex;
     justify-content: center;
@@ -646,112 +726,167 @@ body {
     color: #fff;
     border-color: var(--primary);
 }
+
 .contact {
-    background-color: gainsboro; /* Warna latar belakang */
-    padding: 4rem 0; /* Padding atas dan bawah */
-    text-align: center; /* Posisi teks menjadi tengah */
+    background-color: gainsboro;
+    /* Warna latar belakang */
+    padding: 4rem 0;
+    /* Padding atas dan bawah */
+    text-align: center;
+    /* Posisi teks menjadi tengah */
 }
 
 .contact h2 {
-    font-size: 2.5rem; /* Ukuran font besar */
-    color: #333333; /* Warna teks */
-    margin-bottom: 1rem; /* Jarak bawah */
+    font-size: 2.5rem;
+    /* Ukuran font besar */
+    color: #333333;
+    /* Warna teks */
+    margin-bottom: 1rem;
+    /* Jarak bawah */
 }
 
 .contact h2 span {
-    color: var(--primary); /* Warna teks kuning */
+    color: var(--primary);
+    /* Warna teks kuning */
 }
 
 .contact .header-contact {
-    max-width: 800px; /* Lebar maksimum konten */
-    margin: 0 auto; /* Pusatkan konten */
+    max-width: 800px;
+    /* Lebar maksimum konten */
+    margin: 0 auto;
+    /* Pusatkan konten */
 }
 
 .contact .header-contact h3 {
-    font-size: 1.8rem; /* Ukuran font subjudul */
-    color: #333333; /* Warna teks */
+    font-size: 1.8rem;
+    /* Ukuran font subjudul */
+    color: #333333;
+    /* Warna teks */
 }
 
 .contact .header-contact p {
-    margin-top: 1rem; /* Jarak atas */
-    line-height: 1.6; /* Line-height untuk keterbacaan */
-    color: #666666; /* Warna teks abu-abu */
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    /* Jarak atas */
+    line-height: 1.6;
+    /* Line-height untuk keterbacaan */
+    color: #666666;
+    /* Warna teks abu-abu */
 }
 
 .contact .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Pusatkan item secara horizontal */
-    gap: 2rem; /* Jarak antar elemen */
-    max-width: 1200px; /* Lebar maksimum */
-    margin: 0 auto; /* Pusatkan konten */
-    padding: 2rem; /* Padding */
-    background-color: #ffffff; /* Warna latar belakang */
-    border-radius: 10px; /* Sudut elemen */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan elemen */
+    justify-content: center;
+    /* Pusatkan item secara horizontal */
+    gap: 2rem;
+    /* Jarak antar elemen */
+    max-width: 1200px;
+    /* Lebar maksimum */
+    margin: 0 auto;
+    /* Pusatkan konten */
+    padding: 2rem;
+    /* Padding */
+    background-color: #ffffff;
+    /* Warna latar belakang */
+    border-radius: 10px;
+    /* Sudut elemen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Bayangan elemen */
 }
 
 .contact .maps {
-    flex: 1 1 100%; /* Bagian peta mengambil seluruh lebar */
-    height: 400px; /* Tinggi peta */
-    border-radius: 10px; /* Sudut elemen */
+    flex: 1 1 100%;
+    /* Bagian peta mengambil seluruh lebar */
+    height: 400px;
+    /* Tinggi peta */
+    border-radius: 10px;
+    /* Sudut elemen */
 }
 
 .contact form {
-    flex: 1 1 100%; /* Bagian formulir mengambil seluruh lebar */
-    max-width: 600px; /* Lebar maksimum formulir */
-    text-align: left; /* Posisi teks kiri */
+    flex: 1 1 100%;
+    /* Bagian formulir mengambil seluruh lebar */
+    max-width: 600px;
+    /* Lebar maksimum formulir */
+    text-align: left;
+    /* Posisi teks kiri */
 }
 
 .contact form h2 {
-    font-size: 1.8rem; /* Ukuran font subjudul */
-    color: #333333; /* Warna teks */
-    margin-bottom: 2rem; /* Jarak bawah */
+    font-size: 1.8rem;
+    /* Ukuran font subjudul */
+    color: #333333;
+    /* Warna teks */
+    margin-bottom: 2rem;
+    /* Jarak bawah */
 }
 
 .contact .input-group {
     display: flex;
     align-items: center;
-    margin-top: 1.5rem; /* Jarak atas */
-    background-color: #f0f0f0; /* Warna latar belakang input */
-    padding: 1rem 1.5rem; /* Padding */
-    border-radius: 5px; /* Sudut elemen */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan elemen */
+    margin-top: 1.5rem;
+    /* Jarak atas */
+    background-color: #f0f0f0;
+    /* Warna latar belakang input */
+    padding: 1rem 1.5rem;
+    /* Padding */
+    border-radius: 5px;
+    /* Sudut elemen */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Bayangan elemen */
 }
 
 .contact .input-group i {
-    margin-right: 1rem; /* Jarak kanan ikon */
-    color: #333333; /* Warna ikon */
+    margin-right: 1rem;
+    /* Jarak kanan ikon */
+    color: #333333;
+    /* Warna ikon */
 }
 
 .contact .input-group input {
     flex: 1;
+    padding-left: 2rem;
     border: none;
     outline: none;
     background: transparent;
-    color: #333333; /* Warna teks */
-    font-size: 1rem; /* Ukuran font */
+    color: #333333;
+    /* Warna teks */
+    font-size: 1rem;
+    /* Ukuran font */
 }
 
 .contact .input-group input::placeholder {
-    color: #999999; /* Warna placeholder */
+    color: #767676;
+    /* Warna placeholder */
 }
 
 .contact .btn {
-    margin-top: 2rem; /* Jarak atas */
-    padding: 1rem 2rem; /* Padding */
-    border: none; /* Tanpa border */
-    background-color: #ffc107; /* Warna latar belakang tombol */
-    color: #333333; /* Warna teks tombol */
-    font-size: 1rem; /* Ukuran font */
-    border-radius: 5px; /* Sudut elemen */
-    cursor: pointer; /* Pointer saat dihover */
-    transition: background-color 0.3s, color 0.3s; /* Transisi warna latar belakang dan teks */
+    margin-top: 2rem;
+    /* Jarak atas */
+    padding: 1rem 2rem;
+    /* Padding */
+    border: none;
+    /* Tanpa border */
+    background-color: #ffc107;
+    /* Warna latar belakang tombol */
+    color: #333333;
+    /* Warna teks tombol */
+    font-size: 1.5rem;
+    /* Ukuran font */
+    border-radius: 5px;
+    /* Sudut elemen */
+    cursor: pointer;
+    /* Pointer saat dihover */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transisi warna latar belakang dan teks */
 }
 
 .contact .btn:hover {
-    background-color: #333333; /* Warna latar belakang tombol saat dihover */
-    color: #ffffff; /* Warna teks tombol saat dihover */
+    background-color: #333333;
+    /* Warna latar belakang tombol saat dihover */
+    color: #ffffff;
+    /* Warna teks tombol saat dihover */
 }
 
 /* footer */
@@ -761,6 +896,7 @@ footer {
     padding: 1rem 0 3rem;
     margin-top: 3.2rem;
 }
+
 footer .social {
     padding: 1rem 0;
 }
@@ -796,6 +932,7 @@ footer .credit a {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
 .modal-container {
     position: relative;
     background-color: #fff;
@@ -806,8 +943,10 @@ footer .credit a {
     width: 80%;
     max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    animation: animateModal 0.8s; /* Menambahkan animasi pada modal-container */
-    animation-fill-mode: forwards; /* Untuk menjaga elemen di posisi terakhir setelah animasi selesai */
+    animation: animateModal 0.8s;
+    /* Menambahkan animasi pada modal-container */
+    animation-fill-mode: forwards;
+    /* Untuk menjaga elemen di posisi terakhir setelah animasi selesai */
 }
 
 /* modal animasi */
@@ -819,7 +958,8 @@ footer .credit a {
 
     to {
         opacity: 1;
-        transform: translateY(0); /* Kembali ke posisi asal */
+        transform: translateY(0);
+        /* Kembali ke posisi asal */
     }
 }
 
@@ -889,16 +1029,21 @@ footer .credit a {
     }
 
     .menu .row .menu-card {
-        flex: 1 1 calc(16.666% - 20px); /* 6 columns on large screen */
+        flex: 1 1 calc(16.666% - 20px);
+        /* 6 columns on large screen */
         max-width: calc(16.666% - 20px);
     }
+
     .product .row {
-        gap: 0.6rem; /* Space between product cards */
-        justify-content: space-between; /* Space cards evenly */
+        gap: 0.6rem;
+        /* Space between product cards */
+        justify-content: space-between;
+        /* Space cards evenly */
     }
 
     .product .product-card {
-        flex: 0 1 calc(30% - 1rem); /* 3 columns on large screen */
+        flex: 0 1 calc(30% - 1rem);
+        /* 3 columns on large screen */
         max-width: calc(30% - 1rem);
         margin-top: 1rem;
     }
@@ -915,7 +1060,8 @@ footer .credit a {
     }
 
     .navbar .navbar-nav {
-        position: fixed; /* change to fixed for sticky menu */
+        position: fixed;
+        /* change to fixed for sticky menu */
         top: 100%;
         right: -100%;
         width: 30rem;
@@ -954,12 +1100,14 @@ footer .credit a {
         object-fit: cover;
         object-position: center;
     }
+
     .menu p h3 {
         font-size: 1rem;
     }
 
     .menu .row .menu-card {
-        flex: 1 1 calc(50% - 32px); /* 2 columns on tablet */
+        flex: 1 1 calc(50% - 32px);
+        /* 2 columns on tablet */
         max-width: calc(50% - 32px);
     }
 
@@ -970,13 +1118,17 @@ footer .credit a {
     .modal-content {
         flex-wrap: wrap;
     }
+
     .product .row {
-        gap: 1rem; /* Space between product cards */
-        justify-content: center; /* Space cards evenly */
+        gap: 1rem;
+        /* Space between product cards */
+        justify-content: center;
+        /* Space cards evenly */
     }
 
     .product .product-card {
-        flex: 0 1 calc(45% - 1rem); /* 2 columns on tablet */
+        flex: 0 1 calc(45% - 1rem);
+        /* 2 columns on tablet */
         max-width: calc(45% - 1rem);
         margin-top: 1rem;
     }
@@ -985,43 +1137,129 @@ footer .credit a {
 /* media query for mobile */
 @media (max-width: 450px) {
     html {
-        font-size: 40%;
+        font-size: 50%;
+        /* Set font size to 40% of default size for smaller screens */
     }
 
-    .menu-card-name {
-        font-size: 0.8rem;
+    .hero .content h1 {
+        font-size: 3rem;
+        /* Adjusted font-size for better readability */
+        color: #fff;
+        text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.8);
+        /* Corrected typo from 'rpx' to '2px' */
+        line-height: 1.3;
     }
 
-    .menu .row .menu-card {
-        flex: 1 1 100%; /* 1 column on small devices */
-        max-width: 100%;
+    /* navbar */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.5rem 7%;
+        background-color: rgba(1, 1, 1, 0.849);
+        border-bottom: 1px solid #393939;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
     }
 
-    .product .row {
-        gap: 1rem; /* Space between product cards */
-        justify-content: center; /* Center cards */
+    .navbar .navbar-logo {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+        font-style: italic;
     }
 
-    .product .product-card {
-        flex: 0 1 calc(90% - 1rem); /* Full width on small devices */
-        max-width: calc(90% - 1rem);
-        margin-top: 1rem;
+    .navbar .navbar-logo span {
+        color: var(--primary);
     }
-}
 
-/* media query for mobile */
-@media (max-width: 450px) {
-    html {
-        font-size: 40%; /* Set font size to 40% of default size for smaller screens */
+    .navbar .navbar-nav a {
+        color: #fff;
+        display: inline-block;
+        font-size: 1.4rem;
+        margin: 0 1rem;
     }
+
+    .navbar .navbar-nav a:hover {
+        color: var(--primary);
+    }
+
+    .navbar .navbar-nav a::after {
+        content: '';
+        display: block;
+        padding-bottom: 0.5rem;
+        border-bottom: 0.1rem solid var(--primary);
+        transform: scaleX(0);
+        transition: 0.3s linear;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform: scaleX(1);
+    }
+
+    .navbar .navbar-extra a {
+        color: #fff;
+        margin: 0 0.5rem;
+    }
+
+    .navbar .navbar-extra a:hover {
+        color: var(--primary);
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    /* nav search */
+    .navbar .search-form {
+        position: absolute;
+        top: 100%;
+        right: 6%;
+        background-color: #fff;
+        width: 30rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: transform 0.3s ease-in-out;
+        z-index: 1000;
+    }
+
+    .navbar .search-form.active {
+        transform: scaleY(1);
+    }
+
+    .navbar .search-form input {
+        height: 100%;
+        width: 100%;
+        font-size: 1.6rem;
+        color: #000;
+        padding: 1rem;
+        border: none;
+        outline: none;
+    }
+
+    .navbar .search-form label {
+        cursor: pointer;
+        font-size: 2rem;
+        margin-right: 1.5rem;
+        color: #000;
+    }
+
 
     /* Navbar styles */
     #hamburger-menu {
-        display: inline-block; /* Make hamburger menu visible */
+        display: inline-block;
+        /* Make hamburger menu visible */
     }
 
     .navbar .navbar-nav {
-        position: fixed; /* Sticky navbar */
+        position: fixed;
+        /* Sticky navbar */
         top: 0;
         right: -100%;
         width: 80%;
@@ -1036,33 +1274,55 @@ footer .credit a {
         display: block;
         margin: 1.5rem;
         padding: 1rem;
-        font-size: 1.8rem; /* Increased font size for easy readability */
+        font-size: 1.8rem;
+        /* Increased font size for easy readability */
     }
 
     .navbar .navbar-nav.active {
-        right: 0; /* Slide in the navbar when active */
+        right: 0;
+        /* Slide in the navbar when active */
     }
 
     /* Menu cards */
     .menu .row .menu-card {
-        flex: 1 1 100%; /* 1 column on small screens */
+        flex: 1 1 100%;
+        /* 1 column on small screens */
         max-width: 100%;
     }
 
+    /* Menu cards */
+    .menu-card-price {
+        font-size: 1.8rem;
+    }
+
+    .product-price span {
+        margin-top: 0.5rem;
+        font-size: 1.8rem;
+        /* Reduced price size */
+        font-weight: bold;
+        color: #000000;
+    }
+
+
     .menu-card-name {
-        font-size: 1rem; /* Adjust text size to fit mobile screens */
+        font-size: 3.5rem;
+        /* Adjust text size to fit mobile screens */
     }
 
     /* Product card layout */
     .product .row {
-        gap: 1rem; /* Space between product cards */
-        justify-content: center; /* Center product cards */
+        gap: 1rem;
+        /* Space between product cards */
+        justify-content: center;
+        /* Center product cards */
     }
 
     .product .product-card {
-        flex: 0 1 calc(90% - 1rem); /* 1 card per row with reduced width */
+        flex: 0 1 calc(90% - 1rem);
+        /* 1 card per row with reduced width */
         max-width: calc(90% - 1rem);
-        margin-top: 1rem; /* Add top margin for spacing */
+        margin-top: 1rem;
+        /* Add top margin for spacing */
     }
 
     /* Modal layout */
@@ -1072,9 +1332,123 @@ footer .credit a {
 
     /* About section */
     .about .row .about-img img {
-        flex: 1 1 100%; /* Image takes full width on small screens */
-        height: auto; /* Adjust height to keep the aspect ratio */
+        flex: 1 1 100%;
+        /* Image takes full width on small screens */
+        height: auto;
+        /* Adjust height to keep the aspect ratio */
         object-fit: cover;
         object-position: center;
     }
+
+    /* Shopping Cart */
+    .shopping-cart {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 5px;
+        background: #fff;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        color: #000;
+    }
+
+    .navbar-nav.active {
+        display: block;
+
+        /* atau gaya lainnya sesuai kebutuhan Anda */
+    }
+
+    .navbar .navbar-nav {
+        position: fixed;
+        /* Sticky navbar */
+        top: 0;
+        right: -100%;
+        width: 50%;
+        height: 100vh;
+        background-color: #fff;
+        transition: 0.3s ease-in-out;
+        z-index: 10;
+    }
+
+    .navbar .navbar-nav a {
+        color: var(--bg);
+        display: block;
+        margin: 1.5rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+        /* Increased font size for easy readability */
+    }
+
+    .navbar .navbar-nav.active {
+        right: 3;
+        /* Slide in the navbar when active */
+    }
+
+    .contact .input-group {
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+        /* Jarak atas */
+        background-color: #f0f0f0;
+        /* Warna latar belakang input */
+        padding: 1rem 1.5rem;
+        /* Padding */
+        border-radius: 5px;
+        /* Sudut elemen */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* Bayangan elemen */
+    }
+
+    .contact .input-group i {
+        margin-right: 1rem;
+        /* Jarak kanan ikon */
+        color: #333333;
+        /* Warna ikon */
+    }
+
+    .contact .input-group input {
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #333333;
+        /* Warna teks */
+        font-size: 1rem;
+        /* Ukuran font */
+    }
+
+    .contact .input-group input::placeholder {
+        color: #999999;
+        /* Warna placeholder */
+    }
+
+    .contact .btn {
+        margin-top: 2rem;
+        /* Jarak atas */
+        padding: 1rem 2rem;
+        /* Padding */
+        border: none;
+        /* Tanpa border */
+        background-color: #ffc107;
+        /* Warna latar belakang tombol */
+        color: #333333;
+        /* Warna teks tombol */
+        font-size: 1rem;
+        /* Ukuran font */
+        border-radius: 5px;
+        /* Sudut elemen */
+        cursor: pointer;
+        /* Pointer saat dihover */
+        transition: background-color 0.3s, color 0.3s;
+        /* Transisi warna latar belakang dan teks */
+    }
+
+    .contact .btn:hover {
+        background-color: #333333;
+        /* Warna latar belakang tombol saat dihover */
+        color: #ffffff;
+        /* Warna teks tombol saat dihover */
+    }
+
 }

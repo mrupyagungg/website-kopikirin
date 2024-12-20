@@ -2,11 +2,13 @@ document.addEventListener('alpine:init', () => {
     Alpine.data('product', () => ({
         items: [
             { id: 1, name: 'Dalgona', img: '1.jpg', price: 32000 },
-            { id: 2, name: 'Americano', img: '2.jpg', price: 31000 },
-            { id: 3, name: 'Espresso', img: '3.jpg', price: 20000 },
-            { id: 4, name: 'Caffé Latte', img: '4.jpg', price: 33000 },
-            { id: 5, name: 'Mocca', img: '5.jpg', price: 34000 },
-            { id: 6, name: 'Machiato', img: '6.jpg', price: 24000 },
+            { id: 2, name: 'Cafféé Latte', img: '4.jpg', price: 33000 },
+            { id: 3, name: 'Mocktail', img: '2.jpg', price: 31000 },
+            { id: 4, name: 'Lemon Tea', img: '11.jpg', price: 16000 },
+            { id: 5, name: 'Churros', img: '13.jpg', price: 28000 },
+            { id: 6, name: 'french fries', img: '15.jpg', price: 28000 },
+            { id: 7, name: 'Croissant', img: '12.jpg', price: 30000 },
+            { id: 8, name: 'Hamburger', img: '16.jpg', price: 26000 },
         ],
         init() {
             console.log('Product data initialized:', this.items);
